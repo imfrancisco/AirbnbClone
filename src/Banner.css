@@ -1,0 +1,54 @@
+.banner{
+    background: url(https://amazingarchitecture.com/storage/files/1/architecture-firms/raiz-arquitetura/d21-beach-house/16-D21-Beach-House-Raiz-Arquitetura-Brazil-Sao-Paulo.jpg) center center;
+    /* vh means percentage, so 50vh covers 50% of the screen */
+    height: 60vh;
+    position: relative;
+
+}
+
+
+.banner_info{
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+
+.banner__search{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_searchButton{
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+    border-color: lightgray !important;
+}
+
+
+.banner_info > button{
+    background-color: #ff7779;
+    color: white;
+    /* Gets rid off the uppercase in the button, turned "EXPLORE NEARBY" into "Explore Nearby" in this example*/
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+    border-color: black;
+}
+
+ /* The button changes color when hovered over. Before it turned into black, now it inverts the colors from pink and white to white and pink */
+.banner_info > button:hover{
+    background-color: white;
+    color: #ff7779;
+    border-color: #ff7779;
+}
+
+
+.banner_info > h5{
+    margin-top: 10px;
+}
