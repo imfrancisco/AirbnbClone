@@ -1,8 +1,13 @@
-# Airbnb Clone using React
+# Airbnb-Clone using React
 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Video Walkthrough
+Here's a walkthough of implemented user stories:
+
+<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough'/>
 
 ## Available Scripts
 
